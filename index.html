@@ -610,7 +610,7 @@
     <div class="header">
         <span class="header-house">🏠</span>
         <h1>Feliz Stay 907</h1>
-        <p class="header-sub">Welcome Guide ✨ ようこそ！</p>
+        <p class="header-sub" data-i18n="headerSub">Welcome Guide ✨ Welcome!</p>
     </div>
 
     <div class="wifi-banner">
@@ -629,61 +629,61 @@
     </div>
 
     <div class="grid-wrap">
-        <p class="section-title">Guest Menu</p>
+        <p class="section-title" data-i18n="guestMenu">Guest Menu</p>
         <div class="btn-grid">
             <a href="access/" class="pl-btn">
                 <span class="pl-icon">🏠</span>
-                <span class="pl-en">Route to Accommodations</span>
+                <span class="pl-en" data-i18n="btn1">Route to Accommodations</span>
                 <span class="pl-ja">宿泊施設へのルート</span>
             </a>
             <a href="#" class="pl-btn">
                 <span class="pl-icon">🚕</span>
-                <span class="pl-en">By Taxi</span>
+                <span class="pl-en" data-i18n="btn2">By Taxi</span>
                 <span class="pl-ja">タクシーをご利用の場合</span>
             </a>
             <a href="how-to-open/" class="pl-btn">
                 <span class="pl-icon">🔑</span>
-                <span class="pl-en">How to Open</span>
+                <span class="pl-en" data-i18n="btn3">How to Open</span>
                 <span class="pl-ja">鍵の開け方</span>
             </a>
             <a href="house-rules/" class="pl-btn">
                 <span class="pl-icon">📋</span>
-                <span class="pl-en">House Rules</span>
+                <span class="pl-en" data-i18n="btn4">House Rules</span>
                 <span class="pl-ja">ハウスルール</span>
             </a>
             <a href="equipment/" class="pl-btn">
                 <span class="pl-icon">🛠️</span>
-                <span class="pl-en">Equipment</span>
+                <span class="pl-en" data-i18n="btn5">Equipment</span>
                 <span class="pl-ja">設備について</span>
             </a>
             <a href="nearby-shops/" class="pl-btn">
                 <span class="pl-icon">🗺️</span>
-                <span class="pl-en">Nearby Shops</span>
+                <span class="pl-en" data-i18n="btn6">Nearby Shops</span>
                 <span class="pl-ja">近隣のお店情報</span>
             </a>
             <a href="parking/" class="pl-btn">
                 <span class="pl-icon">🚗</span>
-                <span class="pl-en">Parking</span>
+                <span class="pl-en" data-i18n="btn7">Parking</span>
                 <span class="pl-ja">駐車場情報</span>
             </a>
             <a href="trash/" class="pl-btn">
                 <span class="pl-icon">🗑️</span>
-                <span class="pl-en">Trash</span>
+                <span class="pl-en" data-i18n="btn8">Trash</span>
                 <span class="pl-ja">ゴミの出し方</span>
             </a>
             <a href="laundry/" class="pl-btn">
                 <span class="pl-icon">🫧</span>
-                <span class="pl-en">Laundry</span>
+                <span class="pl-en" data-i18n="btn9">Laundry</span>
                 <span class="pl-ja">洗濯機の使い方</span>
             </a>
             <a href="circuit-breaker/" class="pl-btn">
                 <span class="pl-icon">⚡</span>
-                <span class="pl-en">Circuit Breaker</span>
+                <span class="pl-en" data-i18n="btn10">Circuit Breaker</span>
                 <span class="pl-ja">ブレーカーについて</span>
             </a>
             <a href="emergency/" class="pl-btn">
                 <span class="pl-icon">📞</span>
-                <span class="pl-en">Emergency</span>
+                <span class="pl-en" data-i18n="btn11">Emergency</span>
                 <span class="pl-ja">緊急時の連絡</span>
             </a>
         </div>
@@ -720,15 +720,15 @@
     <a href="house-rules/" class="rules-pill" style="text-decoration:none; display:flex; cursor:pointer;">
         <span class="rule-icon">📋</span>
         <div class="rule-text">
-            <div class="rule-title">House Rules ›</div>
-            <p>🔇 Quiet hours: 22:00–8:00<br>🚭 No smoking (incl. balcony)<br>👟 No shoes indoors<br>🔒 Lock door when sleeping / going out<br>💡 Turn off lights & A/C when out</p>
+            <div class="rule-title" data-i18n="houseRulesTitle">House Rules ›</div>
+            <p data-i18n="houseRulesBody">🔇 Quiet hours: 22:00–8:00<br>🚭 No smoking (incl. balcony)<br>👟 No shoes indoors<br>🔒 Lock door when sleeping / going out<br>💡 Turn off lights & A/C when out</p>
         </div>
     </a>
 
     <div class="emergency-strip">
         <span class="em-icon">🚨</span>
         <div class="em-text">
-            <div class="em-title">Emergency</div>
+            <div class="em-title" data-i18n="emergencyTitle">Emergency</div>
             <div class="em-nums">🚒 Fire: 119  |  🚑 Ambulance: 119  |  👮 Police: 110</div>
         </div>
     </div>
@@ -757,6 +757,132 @@
             es: { status: '¡Aquí para ayudarle!',   placeholder: 'Escriba su pregunta…',     welcome: '¡Hola! 😊 ¡Bienvenido/a al Feliz Stay 907!<br>¿En qué puedo ayudarle?' },
         };
 
+        const UI_STRINGS = {
+            en: {
+                headerSub:      'Welcome Guide ✨ Welcome!',
+                guestMenu:      'Guest Menu',
+                btn1:           'Route to Accommodations',
+                btn2:           'By Taxi',
+                btn3:           'How to Open',
+                btn4:           'House Rules',
+                btn5:           'Equipment',
+                btn6:           'Nearby Shops',
+                btn7:           'Parking',
+                btn8:           'Trash',
+                btn9:           'Laundry',
+                btn10:          'Circuit Breaker',
+                btn11:          'Emergency',
+                houseRulesTitle:'House Rules ›',
+                houseRulesBody: '🔇 Quiet hours: 22:00–8:00<br>🚭 No smoking (incl. balcony)<br>👟 No shoes indoors<br>🔒 Lock door when sleeping / going out<br>💡 Turn off lights & A/C when out',
+                emergencyTitle: 'Emergency',
+            },
+            ja: {
+                headerSub:      'ウェルカムガイド ✨ ようこそ！',
+                guestMenu:      'ゲストメニュー',
+                btn1:           '宿泊施設へのルート',
+                btn2:           'タクシーをご利用の場合',
+                btn3:           '鍵の開け方',
+                btn4:           'ハウスルール',
+                btn5:           '設備について',
+                btn6:           '近隣のお店情報',
+                btn7:           '駐車場情報',
+                btn8:           'ゴミの出し方',
+                btn9:           '洗濯機の使い方',
+                btn10:          'ブレーカーについて',
+                btn11:          '緊急時の連絡',
+                houseRulesTitle:'ハウスルール ›',
+                houseRulesBody: '🔇 静粛時間: 22:00〜8:00<br>🚭 禁煙（バルコニー含む）<br>👟 室内は土足厳禁<br>🔒 就寝・外出時は必ず施錠<br>💡 外出時は電気・エアコンをお切りください',
+                emergencyTitle: '緊急連絡先',
+            },
+            zh: {
+                headerSub:      '欢迎指南 ✨ 欢迎您！',
+                guestMenu:      '宾客菜单',
+                btn1:           '前往住宿的路线',
+                btn2:           '乘坐出租车',
+                btn3:           '如何开门',
+                btn4:           '房屋规则',
+                btn5:           '设施说明',
+                btn6:           '附近商店',
+                btn7:           '停车场信息',
+                btn8:           '垃圾处理方法',
+                btn9:           '洗衣机使用方法',
+                btn10:          '断路器说明',
+                btn11:          '紧急联系',
+                houseRulesTitle:'房屋规则 ›',
+                houseRulesBody: '🔇 安静时间: 22:00〜8:00<br>🚭 禁止吸烟（含阳台）<br>👟 室内请勿穿鞋<br>🔒 睡觉/外出时请锁门<br>💡 外出时请关灯及空调',
+                emergencyTitle: '紧急联系',
+            },
+            ko: {
+                headerSub:      '환영 가이드 ✨ 환영합니다！',
+                guestMenu:      '게스트 메뉴',
+                btn1:           '숙소까지 가는 길',
+                btn2:           '택시 이용 방법',
+                btn3:           '문 여는 방법',
+                btn4:           '하우스 규칙',
+                btn5:           '시설 안내',
+                btn6:           '근처 상점',
+                btn7:           '주차장 안내',
+                btn8:           '쓰레기 버리는 방법',
+                btn9:           '세탁기 사용법',
+                btn10:          '차단기 안내',
+                btn11:          '긴급 연락처',
+                houseRulesTitle:'하우스 규칙 ›',
+                houseRulesBody: '🔇 정숙 시간: 22:00〜8:00<br>🚭 금연 (발코니 포함)<br>👟 실내 신발 착용 금지<br>🔒 취침/외출 시 문 잠금<br>💡 외출 시 조명 및 에어컨 끄기',
+                emergencyTitle: '긴급 연락처',
+            },
+            fr: {
+                headerSub:      'Guide de bienvenue ✨ Bienvenue !',
+                guestMenu:      'Menu invité',
+                btn1:           'Itinéraire vers l\'hébergement',
+                btn2:           'En taxi',
+                btn3:           'Comment ouvrir la porte',
+                btn4:           'Règlement intérieur',
+                btn5:           'Équipements',
+                btn6:           'Commerces à proximité',
+                btn7:           'Parking',
+                btn8:           'Collecte des ordures',
+                btn9:           'Utilisation du lave-linge',
+                btn10:          'Disjoncteur',
+                btn11:          'Urgences',
+                houseRulesTitle:'Règlement intérieur ›',
+                houseRulesBody: '🔇 Heures calmes: 22h00–8h00<br>🚭 Non-fumeur (balcon inclus)<br>👟 Pas de chaussures à l\'intérieur<br>🔒 Verrouiller la porte en dormant / en sortant<br>💡 Éteindre les lumières et la climatisation en partant',
+                emergencyTitle: 'Urgences',
+            },
+            es: {
+                headerSub:      'Guía de bienvenida ✨ ¡Bienvenido/a!',
+                guestMenu:      'Menú de huéspedes',
+                btn1:           'Ruta al alojamiento',
+                btn2:           'En taxi',
+                btn3:           'Cómo abrir la puerta',
+                btn4:           'Normas de la casa',
+                btn5:           'Equipamiento',
+                btn6:           'Tiendas cercanas',
+                btn7:           'Aparcamiento',
+                btn8:           'Gestión de residuos',
+                btn9:           'Uso de la lavadora',
+                btn10:          'Interruptor automático',
+                btn11:          'Emergencias',
+                houseRulesTitle:'Normas de la casa ›',
+                houseRulesBody: '🔇 Horas tranquilas: 22:00–8:00<br>🚭 No fumar (incluido el balcón)<br>👟 No entrar con zapatos<br>🔒 Cerrar la puerta al dormir / al salir<br>💡 Apagar luces y A/C al salir',
+                emergencyTitle: 'Emergencias',
+            },
+        };
+
+        function applyTranslations(lang) {
+            const t = UI_STRINGS[lang];
+            if (!t) return;
+            document.querySelectorAll('[data-i18n]').forEach(el => {
+                const key = el.getAttribute('data-i18n');
+                if (key in t) {
+                    if (key === 'houseRulesBody') {
+                        el.innerHTML = t[key];
+                    } else {
+                        el.textContent = t[key];
+                    }
+                }
+            });
+        }
+
         function setLang(lang, btn) {
             currentLang = lang;
             const d = LANG_DATA[lang];
@@ -766,6 +892,7 @@
             btn.classList.add('active');
             history = [];
             document.getElementById('chatMsgs').innerHTML = `<div class="msg bot">${d.welcome}</div>`;
+            applyTranslations(lang);
         }
 
         async function sendMessage() {
@@ -824,6 +951,9 @@
         document.getElementById('chatInput').addEventListener('keydown', e => {
             if (e.key === 'Enter') sendMessage();
         });
+
+        // Apply default language on load
+        applyTranslations('en');
     </script>
 </body>
 </html>
