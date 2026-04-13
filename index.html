@@ -960,7 +960,7 @@
         }
 
         document.getElementById('chatInput').addEventListener('keydown', e => {
-            if (e.key === 'Enter') sendMessage();
+            if (e.key === 'Enter' && !e.isComposing) sendMessage();
         });
 
         // Apply default language on load
